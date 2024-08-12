@@ -1,4 +1,137 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+   
+}
+
+.header-title {
+    float: left;
+    width: 243px;
+    height: 52.2px;
+    margin-left: 120px;
+    margin-top: 87px;
+}
+
+.nav {
+    float: right;
+}
+
+.header-title > h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+    font-family:"Poppins", sans-serif ;
+}
+
+
+.nav {
+    margin-left: 457px;
+    margin-top: 95px;
+    width: 463px;
+    height: 36px;
+    cursor: pointer;
+
+}
+
+.lists {
+  list-style-type: none;
+  display: inline-flex;
+
+}
+
+.lists > li {
+    margin-left: 25px;
+}
+
+
+.lists > li > a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:#3A3A3A;
+
+}
+
+
+/* header-info + images */
+
+
+.header-info > h1 {
+    width: 582px;
+    height: 133px;
+    margin-left: 120px;
+  
+    font-size: 45px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.header-info > p {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 120px;
+    width: 505px;
+    height: 60.9px;
+    margin-top: 15px;
+}
+
+.header-button {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-left: 120px;
+    width: 196px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 12px;
+    border: 2px solid #E02C6D;
+    margin-top: 25px;
+   
+
+}
+
+
+.header-info-display {
+    background-image: url("main-camera.png"),url("Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: right, right;
+    margin-top: 50px;
+    display: flex;
+    padding-top: 140px;
+   margin-right: 80px;
+   margin-bottom: 100px;
+}
+.header-info {
+    padding-bottom: 100px;
+}
+
+.logos {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 45px;
+    
+}
+
+.logos > li {
+    margin-left: 55px;
+    
+
+}
+
+
+.listed-logo {
+    border: 1px solid rgba(209, 205, 205, 0.274);
+    
+    width: 1110px;
+    height: 110px;
+    margin-left: 145px;
+    border-radius: 24px;
+    margin-left: 165px;
+    margin-bottom: 100px;
 }
