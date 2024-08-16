@@ -99,7 +99,7 @@
 
 
 .header-info-display {
-    background-image: url("main-camera.png"),url("Circle\ design.svg");
+    background-image: url("camera-410.png"),url("Circle\ design.svg");
     background-repeat: no-repeat;
     background-position: right, right;
     margin-top: 50px;
@@ -133,7 +133,7 @@
     height: 110px;
     margin-left: 145px;
     border-radius: 24px;
-    margin-left: 165px;
+    margin-left: 135px;
     margin-bottom: 100px;
 }
 
@@ -171,6 +171,7 @@
     background-color: #FFFFFF;
     margin-left: 20px;
     margin-top: 20px;
+    position: relative;
     
 
 
@@ -182,6 +183,7 @@
    margin-left: 14.5px;
    margin-right: 14.5px;
    margin-top: 14.5px;
+   
 }
 
 .stars {
@@ -194,6 +196,7 @@
 .checked {
     color: orange;
     font-size: 16px;
+     
    
 }
 
@@ -326,6 +329,7 @@
     height: 24px;
     font-size: 14px;
     line-height: 32px;
+    color: #D9DBE1;
 }
 
 .foot-info {
@@ -336,6 +340,414 @@
 .foot-images {
     margin-top: 20px;
 }
+
+.total {
+    display: flex;
+    
+}
+   .up {
+    display: inline-flex;
+    
+   }
+
+   .up > li > img {
+    margin-left: 35px;
+    margin-right: 35px;
+   }
+
+
+
+
+
+   .down {
+    display: inline-flex;
+   }
+
+
+   .down > li > img {
+    margin-right: 35px;
+    margin-left: 35px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:540px) {
+     .lists {
+        display: none;
+     }
+
+     .nav {
+        background-image: url("bar.png");
+        background-position: top left;
+        background-repeat: no-repeat;
+     }
+
+
+     .header-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+     }
+
+
+     .header-title > h2 {
+        font-size: 16px;
+        width: 162px;
+        height: 24px;
+        margin-top: -140px;
+        margin-left: 50px;
+       
+       
+        
+     }
+
+
+
+     .header-info-display {
+        background-image: url("main-camera.png"),url("Circles\ design-svg.png");
+        background-repeat: no-repeat;
+        background-position: center, center;
+        margin-top: 20px;
+      margin-top: -500px;
+    
+      margin-left: 105px;
+       margin-bottom: 100px;
+    }
+
+
+    .header-info > h1 {
+  
+        font-size: 28px;
+        width: 404px;
+        height: 48px;
+        text-align: center;
+        margin: 20px;
+        margin-bottom: 25px;
+        margin-left: -60px;
+        margin-top: -10px;
+
+    }
+
+
+    .header-info > p {
+        font-size: 14px;
+        width: 321px;
+        height: 65px;
+        text-align: center;
+        margin: 20px;
+        margin-left: -25px;
+        margin-top: 40px;
+    }
+
+    .header-button {
+        font-size: 14px;
+        width: 194px;
+        height: 44px;
+        border-radius: 24px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .header-info {
+        margin-top: 550px;
+    }
+
+
+
+
+    
+
+ 
+
+ 
+
+    .popular {
+        font-size: 16px;
+    }
+
+
+    .items-container {
+      display: flex;
+      flex-direction: column;
+         width: 329px;
+         height: 4504px;
+      
+         margin-left: 70px;
+         margin-right: 70px;
+         margin-bottom: 35px;
+     }
+     
+     
+     .items {
+         width: 329px;
+         height: 476px;
+         border: 1px solid rgba(243, 243, 243, 0.815);
+         margin-top: 35px;
+         background-color: #FFFFFF;
+         margin-right: 70px;
+         margin-left: 20px;
+         margin-right: 20px;
+        
+    
+         
+     
+     
+     }
+     
+     .items > img {
+        width: 300px;
+        height: 256px;
+        margin-left: 14.5px;
+        margin-right: 14.5px;
+        margin-top: 14.5px;
+        
+     }
+
+     .items > h2 {
+        font-size: 28px;
+     }
+
+
+     .see {
+        margin-top: 40px;
+        width: 99px;
+        height: 24px;
+        color:#E02C6D;
+        font-weight: 600;
+        margin-left: 327px;
+        margin-bottom: 100px;
+        cursor: pointer;
+    }
+
+
+    .feature {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+      .feat-info > h1 {
+        width: 311px;
+        height: 72px;
+        font-size: 24px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+
+      .feat-info > p {
+        width: 329px;
+        height: 88px;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+      }
+
+      .feat-button {
+        margin-top: 70px;
+        margin-left: 190px;
+        margin-right: 190px;
+      }
+
+
+      .feat-pic > img {
+        width: 299px;
+        height: 188px;
+      }
+
+
+
+      .footer {
+        width: 540px;
+        height: 311px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      .foot-info > h2 {
+        font-size: 16px;
+        margin-left: -40px;
+        
+        
+      }
+      .foot-info > p {
+        font-size: 12px;
+        width: 224px;
+        height: 24;
+        line-height: 16px;
+        margin-left: -30px;
+        color: #D9DBE1;
+
+      }
+
+
+
+      .foot-images > img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .foot-images {
+        margin-left: -35px;
+        margin-top: -10px;
+      }
+
+
+      .total {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .up {
+        display: inline-flex;
+      }
+      
+      .down {
+        display: inline-flex;
+      }
+
+
+      .listed-logo {
+        width: 375.21px;
+        height: 81.46px;
+        margin-top: -130px;
+        margin-left: 60px;
+
+      }
+
+
+      .logos > li > img {
+        width: 58.86px;
+        height: 16.98px;
+        
+    }
+
+
+    .up > li > img {
+        width: 58.86;
+        height: 16.98px;
+        margin-left: 10px;
+    }
+
+
+    .down > li > img {
+        width: 58.86;
+        height: 16.98px;
+        margin-left: 20px;
+    }
+
+    .down {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .up {
+        margin-top: -25px;
+    
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
