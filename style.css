@@ -500,7 +500,7 @@
          border: 1px solid rgba(243, 243, 243, 0.815);
          margin-top: 35px;
          background-color: #FFFFFF;
-         margin-right: 70px;
+        
          margin-left: 20px;
          margin-right: 20px;
         
@@ -671,6 +671,185 @@
 
 }
 
+
+
+@media screen and (max-width:360px) {
+
+
+    .lists >li {
+        display: none;
+     }
+
+     .header-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+     }
+     .header-title > h2 {
+        margin-left: -70px;
+        font-size: 14px;
+        margin-bottom: 20px;
+     }
+
+     .header-info-display {
+             margin-left: -5px;
+     }
+
+
+     .header-info > h1 {
+        margin-left: 25px;
+        font-size: 16px;
+        width: 180px;
+    
+     }
+
+
+     .header-info > p {
+             font-size: 10px;
+             width: 180px;
+             margin-left:25px ;
+             margin-top: -20px;
+     }
+
+
+     .header-button {
+        width: 120px;
+        height: 36px;
+        font-size: 10px;
+        margin-left: 55px;
+     }
+
+
+     .up > li > img {
+        width: 23.24px;
+        margin-left: -10px;
+        
+     }
+
+     .down > li > img {
+        width: 23.24px;
+        margin-left: -10px;
+     }
+
+     .listed-logo {
+        width: 200px;
+        height: 51px;
+        margin-left: 10px;
+     }
+
+
+
+     .up {
+        margin-top: -40px;
+        margin-left: 30px;
+     }
+
+     .down {
+        margin-top: -5px;
+        margin-left: 50px;
+     }
+
+
+     .listed-logo {
+        margin-top: -150px;
+        margin-right: 10px;
+     }
+
+
+     .popular {
+        margin-left: -135px;
+        font-size: 16px;
+     }
+
+
+     .items-container {
+        margin-left: 10px;
+        width: 329px;
+     }
+
+     .items {
+        margin-left: 5px;
+     }
+
+
+
+
+
+     .see {
+        margin-left: 110px;
+     }
+
+
+     .feat-pic > img {
+        width: 159px;
+        height: 88px;
+     }
+
+     .feat-pic {
+        margin-left: -145px;
+        margin-top: -30px;
+     }
+
+     .feat-info > h1 {
+        font-size: 16px;
+        margin-left: -110px;
+        width: 181px;
+        height: 72px;
+        margin-left: 80px;
+     }
+
+
+     .feat-info > p {
+        font-size: 12px;
+        width: 189px;
+        height: 88px;
+        text-align: center;
+        margin-left: 80px;
+        margin-top: -10px;
+     }
+
+     .feat-button {
+        margin-left: 115px ;
+        width: 120px;
+        height: 31px;
+        font-size: 10px;
+     }
+
+
+     .feat-info {
+        margin-left: -70px;
+     }
+
+
+     .foot-info {
+        margin-left: -280px;
+     }
+
+
+     .foot-info > p {
+        font-size: 8px;
+        width: 150px;
+        margin-left: 5px;
+     }
+
+     .foot-info > h2 {
+        font-size: 16px;
+    }
+
+
+    .foot-images > img {
+        width: 12.8px;
+        height: 12.8px;
+        margin-left: 5px;
+    }
+    .foot-images {
+        margin-left: -320px;
+    }
+
+
+ }
+    
 
 
 
