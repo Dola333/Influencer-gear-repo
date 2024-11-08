@@ -45,7 +45,7 @@
 
 }
 
-.lists > li {
+.lists > li > a {
     margin-left: 25px;
 }
 
@@ -56,6 +56,16 @@
     font-weight: 600;
     color:#3A3A3A;
 
+}
+
+.up > li > a {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.down > li > a {
+    margin-left: 60px;
+    cursor: pointer;
 }
 
 
@@ -97,6 +107,11 @@
 
 }
 
+.header-button >a {
+    text-decoration: none;
+    color: #D9DBE1;
+}
+
 
 .header-info-display {
     background-image: url("camera-410.png"),url("Circle\ design.svg");
@@ -119,7 +134,7 @@
     
 }
 
-.logos > li {
+.logos > li  {
     margin-left: 55px;
     
 
@@ -289,10 +304,15 @@
     cursor: pointer;
 }
 
+.feat-button > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 /* footer */
 
-.foot-images > img {
+.foot-images >a> img {
     width: 32px;
     height: 32px;
     margin-right: 10px;
